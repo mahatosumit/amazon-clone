@@ -158,7 +158,7 @@ body {
     padding: 10px;
     font-size: 16px;
     box-sizing: border-box;
-    justify-content: space-between;
+    
     
     
 
@@ -172,10 +172,22 @@ body {
     text-decoration: none;
     font-size: 17px;
     display: flex;
-    justify-content: space-between;
-    position: static;
+    justify-content: flex-start;
+   
 }
 
+.menu3 a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   display: flex;
+   justify-content: flex-end;
+margin-left: 400px;
+width: 250px;
+    
+}
 
 
 .items {
@@ -203,11 +215,20 @@ body {
 
 .sign {
     align-items: center;
-    padding: 10px;
+    padding: 0 20px;
     width: 100%;
     text-align: center;
-    border: 2px solid rgb(49, 48, 48);
+    border: 1px solid #DDD;
     box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    line-height: 20px;
+}
+.sign a {
+    text-decoration: none;
+    
+    margin: 5px;
 }
 
 .sign button {
@@ -216,7 +237,7 @@ body {
     background: orange;
     margin: 10px;
     border-radius: 5px;
-    width: 300px;
+    width: 270px;
     height: 30px;
     box-sizing: border-box;
     border: none;
@@ -238,13 +259,6 @@ body {
     background-color: #0f1111;
     justify-content: space-between;
     padding: 20px;
-    /* width: 100%;
-    height: 50px;
-    color: white;
-    background: #0F1111;
-
-    text-align: center;
-    box-sizing: border-box; */
 }
 
 .fir {
@@ -268,26 +282,40 @@ body {
 .footer2 {
     background: #232F3F;
     color: #0F1111;
-    height: 100px;
+    height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+   
     
 }
 .logo1 img {
-    padding-left: 95px;
-    
-    
-    
+    padding-top: 10px;
+    margin: 30px;
     box-sizing: border-box;
-    width: 300px;
+    width: 100px;
+    height: 60px;
 }
-box1  {
-    width: 25px;
-    height: 20px;
-    margin: 20px;   
-    padding: 20px;
-    border: 2px solid wheat; 
-    border-radius: 3px;
+.box1  {
+    width: 140px;
+    height: 10px;
+       
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    color: #DDD;
+    border-radius: 5px;
     
+    
+}
+
+
+.image3 {
+    margin-top: 5px;
+    height: 18px;
+    display: inline;
+    width: 25px;
+    padding: 5px;
 }
