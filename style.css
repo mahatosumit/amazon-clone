@@ -319,3 +319,57 @@ width: 250px;
     width: 25px;
     padding: 5px;
 }
+
+/* Your existing styles go here */
+
+/* Media query for screens smaller than 600 pixels */
+@media screen and (max-width: 600px) {
+  .navbar {
+    height: 80px; /* Adjust the height for smaller screens */
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+
+  .search-bar {
+    width: 100%; /* Make the search bar full-width on smaller screens */
+  }
+
+  .menu3 a {
+    margin-left: 0; /* Remove margin for menu items on the right */
+    width: 100%; /* Make the menu items full-width on smaller screens */
+    justify-content: center; /* Center align menu items */
+  }
+
+  .items {
+    margin-top: 150px; /* Adjust the margin-top for the items section */
+  }
+
+  .box img {
+    height: 150px; /* Adjust the height of the images in the items section */
+  }
+}
+
+/* Media query for screens between 601px and 900px */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .navbar {
+    height: 100px; /* Adjust the height for medium-sized screens */
+  }
+
+  .search-bar {
+    width: 80%; /* Make the search bar 80% width on medium-sized screens */
+  }
+
+  /* Add more styles for medium-sized screens as needed */
+}
+
+/* Media query for screens larger than 900 pixels */
+@media screen and (min-width: 901px) {
+  .navbar {
+    height: 120px; /* Adjust the height for larger screens */
+  }
+
+  .search-bar {
+    width: 60%; /* Make the search bar 60% width on larger screens */
+  }
+
+  
+}
