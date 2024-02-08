@@ -182,12 +182,12 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-   display: flex;
-   justify-content: flex-end;
-margin-left: 400px;
-width: 250px;
-    
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto; /* Adjusted to handle different screen sizes */
+    width: 250px;
 }
+
 
 
 .items {
@@ -202,11 +202,11 @@ width: 250px;
 
 .box img {
     height: 250px;
-    width: 250;
+    width: 250px; /* Add 'px' to specify the unit */
     padding: 5%;
     box-sizing: border-box;
-
 }
+
 
 .items1 {
     display: flex;
